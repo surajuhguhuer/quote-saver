@@ -10,7 +10,8 @@ attrs==24.3.0
 babel==2.16.0
 beautifulsoup4==4.12.3
 bleach==6.1.0
-blinker==1.9.0
+blinker==1.8.2
+
 cachetools==5.5.2
 certifi==2024.12.14
 cffi==1.17.1
