@@ -2,4 +2,5 @@
 nixpacksVersion = "1.10.0"
 
 [env]
-NIXPACKS_PKGS = "python3Distutils"
+NIXPACKS_PYTHON_VERSION = "3.11"
+NIXPACKS_PKGS = "python3Full"
