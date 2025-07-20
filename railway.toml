@@ -1,9 +1,5 @@
 [build]
-builder = "NIXPACKS"  # or "DOCKERFILE" if you are using a custom Dockerfile
+nixpacksVersion = "1.10.0"
 
-[build.nixpacks]
-language = "python"
-buildCommand = "pip install -r requirements.txt"
-
-[start]
-cmd = "python app.py"
+[env]
+NIXPACKS_PKGS = "python3Distutils"
